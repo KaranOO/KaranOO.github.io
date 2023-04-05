@@ -756,7 +756,8 @@ h3.my-profession{
 }
 
 .news-h-text{
-    color: var(--text-black-900);
+    /* color: var(--text-black-900); */
+    color: var(--skin-color);
     font-size: large;
     font-weight: 800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
