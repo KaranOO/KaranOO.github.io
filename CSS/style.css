@@ -936,3 +936,61 @@ h3.my-profession{
         max-width: 100%;
     }
 }
+
+@media(max-width: 650px){
+    .news-img{
+        max-width: 600px;
+        flex-wrap: wrap;
+    }
+   .news-item{
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   
+}
+
+
+@media(max-width: 530px){
+    .news-item img{
+        max-width: 450px;
+    }
+    .news-box{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 380px){
+    .news-item img{
+        max-width: 270px;
+    }
+    .news-box{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width: 360px){
+    .news-item img{
+        max-width: 200px;
+    }
+    .news-box{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 300px){
+    .news-item img{
+        max-width: 200px;
+    }
+    .news-box{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 270px){
+    .news-item img{
+        max-width: 30px;
+    }
+    .news-box{
+        flex-wrap: wrap;
+    }
+}
