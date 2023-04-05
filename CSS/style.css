@@ -698,6 +698,12 @@ h3.my-profession{
     font-weight: 500;
 }
 
+.portfolio .portfolio-item-see_more{
+    flex: 0 0 99%;
+    max-width: 99%;
+    margin-bottom: 10px;
+}
+
 .portfolio .portfolio-item{
     flex: 0 0 33.3%;
     max-width: 33.3%;
@@ -715,6 +721,53 @@ h3.my-profession{
     width: 100%;
     display: block;
 }
+
+
+/* News Section */
+
+/* .news-area{
+    background-color: cyan;
+} */
+
+.news-box{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex; 
+     flex-wrap: nowrap; 
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.news-box:hover{
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+
+/* .news-item{
+    box-shadow:0px ;
+} */
+
+.news-img{
+    align-self: center;
+}
+
+.news-h-text{
+    color: var(--text-black-900);
+    font-size: large;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news-p-text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--text-black-700);
+}
+
+
 
 /* contact */
 /* .contact .container{
@@ -769,7 +822,8 @@ h3.my-profession{
 
 .contact .contact-form{
     flex: 0 0 100%;
-    max-width: 100%;
+    max-width: 80%;
+    margin-left: 10%;
 }
 
 .contact .contact-form .col-6{
